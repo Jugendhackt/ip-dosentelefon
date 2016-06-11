@@ -14,7 +14,7 @@ while [[ true ]]; do
 # GPIO Taster -> später
 
 # vlc streamt audio über LAN - paralell: VLC empfängt über LAN (Komandos mit & verbinden)
-
+cvlc -vvv alsa://hw:1,0 --sout '#transcode{acodec=vorb,ab=128}:standard{access=http,mux=ogg,url=10.0.15.101:8080}'
 #Verbindung wird irgendwann beendet
 
 
