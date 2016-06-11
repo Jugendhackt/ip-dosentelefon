@@ -2,6 +2,8 @@
 # Ein bidiirektorales Dosentelefon auf Basis von VLC auf dem RPi
 
 #TODO: machen
+while [[ true ]]; do
+  #statements
 
 #Initralisieren
 # Gegenstelle erreichbar?
@@ -16,4 +18,6 @@
 #Verbindung wird irgendwann beendet
 
 
-# Programende oder while-schleife XXX?
+# (Programende oder) while-schleife XXX?
+
+done
